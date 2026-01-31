@@ -2,8 +2,8 @@
 cask "teleskopio" do
   name "teleskopio"
   desc "teleskopio is an open-source small and beautiful Web Kubernetes client."
-  homepage "https://github.com/roman-kiselenko/teleskopio"
-  version "0.1.2"
+  homepage "https://teleskopio.github.io/"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "teleskopio" do
 
   on_macos do
     on_intel do
-      url "https://github.com/roman-kiselenko/teleskopio/releases/download/v#{version}/teleskopio_#{version}_darwin_amd64.tar.gz"
-      sha256 "7c13ff594d0168b20db932371f72c1347d6f049277d91816a94e0264923228e5"
+      url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_darwin_amd64.tar.gz"
+      sha256 "b53c2c6ec59685cba470d7305fccefd3e1990403d5b5e604a15c327d346e3595"
     end
     on_arm do
-      url "https://github.com/roman-kiselenko/teleskopio/releases/download/v#{version}/teleskopio_#{version}_darwin_arm64.tar.gz"
-      sha256 "625ec140cfd43db4553e3b3f013ad3ea297b1fa23d9b6a99b1b1d9ad979be0dd"
+      url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_darwin_arm64.tar.gz"
+      sha256 "91c70d21595bf6f31d15648fa1b2be1b556321f01e2c44925ef0bcb5fa9d2729"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/roman-kiselenko/teleskopio/releases/download/v#{version}/teleskopio_#{version}_linux_amd64.tar.gz"
-      sha256 "526333f567d1f92cdc0cb463f765ce9c0e16f870706be5144e3afd134462a03c"
+      url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_linux_amd64.tar.gz"
+      sha256 "0d0d2aa9d99eb98ff87a76d161e6167350bcfdef12d7e58719d25ce757212d96"
     end
     on_arm do
-      url "https://github.com/roman-kiselenko/teleskopio/releases/download/v#{version}/teleskopio_#{version}_linux_arm64.tar.gz"
-      sha256 "aede618287d05728d3a5b95212e8dff0dc013f47a9f2477cb7648446cccb524e"
+      url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_linux_arm64.tar.gz"
+      sha256 "47e2b76d471c55f3ed562ec39a2c6bedeac39f54e767e665e1f0e889991d616b"
     end
   end
 
