@@ -3,7 +3,7 @@ cask "teleskopio" do
   name "teleskopio"
   desc "teleskopio is an open-source small and beautiful Web Kubernetes client."
   homepage "https://teleskopio.github.io/"
-  version "0.1.3"
+  version "0.1.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "teleskopio" do
   on_macos do
     on_intel do
       url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_darwin_amd64.tar.gz"
-      sha256 "b53c2c6ec59685cba470d7305fccefd3e1990403d5b5e604a15c327d346e3595"
+      sha256 "7770d4c425596978d17fe27e3585c5267734fcc7f99b9b675c8117885a933eb8"
     end
     on_arm do
       url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_darwin_arm64.tar.gz"
-      sha256 "91c70d21595bf6f31d15648fa1b2be1b556321f01e2c44925ef0bcb5fa9d2729"
+      sha256 "efabcc5fedc7bd28de2b2283cf9088d3074fdcd759079bbe5f141419be553045"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_linux_amd64.tar.gz"
-      sha256 "0d0d2aa9d99eb98ff87a76d161e6167350bcfdef12d7e58719d25ce757212d96"
+      sha256 "4dc87c79eb3d4672d5e1570e78d0ea0079fc62e3cd9fb09545028332caa5eb04"
     end
     on_arm do
       url "https://github.com/teleskopio/teleskopio/releases/download/v#{version}/teleskopio_#{version}_linux_arm64.tar.gz"
-      sha256 "47e2b76d471c55f3ed562ec39a2c6bedeac39f54e767e665e1f0e889991d616b"
+      sha256 "0087ca56bfa40bcbe5b96c268fdf9ec43f4dc4ea1658769eb3536c646910b116"
     end
   end
 
